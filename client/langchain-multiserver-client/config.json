@@ -1,0 +1,22 @@
+{
+    "mcpServers": {
+        "addition": {
+            "command": "docker",
+            "args": [
+                "run",
+                "-i",
+                "--rm",
+                "addition-server"
+            ]
+        },
+        "multiplication": {
+            "command": "docker",
+            "args": [
+                "run",
+                "-i",
+                "--rm",
+                "multiplication-server"
+            ]
+        }
+    }
+}
